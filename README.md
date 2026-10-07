@@ -29,3 +29,4 @@ Codex가 프로젝트 지침을 읽는 `AGENTS.md` 방식을 사용한다. [Open
 |---|---|---|
 | 2026-10-05 | 운영체제 · Java | [프로세스와 스레드, 메모리 공유와 동기화](notes/2026-10-05-process-and-thread.md) |
 | 2026-10-06 | 운영체제 | [컨텍스트 스위칭과 전환 비용](notes/2026-10-06-context-switching.md) · [TLB와 주소 변환](notes/2026-10-06-tlb.md) |
+| 2026-10-07 | 운영체제 | [CPU 스케줄링 기초: 상태·선점·성능 기준·기아](notes/2026-10-07-cpu-scheduling-basics.md) |
