@@ -12,6 +12,7 @@
 |---|---|
 | [AGENTS.md](AGENTS.md) | 새 채팅이 따를 학습 방식과 기록·커밋·푸시 규칙 |
 | [CURRICULUM.md](CURRICULUM.md) | 전체 목차와 완료 여부 |
+| [CS_PRACTICE_PLAN.md](CS_PRACTICE_PLAN.md) | CS 개념 설명과 적용 연습을 위한 집중 학습 계획 |
 | [STUDY_STATE.md](STUDY_STATE.md) | 최근 진도, 복습 포인트, 진행 중 질문, 다음 시작점 |
 
 Codex가 프로젝트 지침을 읽는 `AGENTS.md` 방식을 사용한다. [OpenAI 공식 안내](https://learn.chatgpt.com/docs/agent-configuration/agents-md)
