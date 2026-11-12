@@ -36,3 +36,4 @@ Codex가 프로젝트 지침을 읽는 `AGENTS.md` 방식을 사용한다. [Open
 | 2026-10-19 | 운영체제 | [교착 상태: 필요 조건·락 획득 순서·기아와의 차이](notes/2026-10-19-deadlock.md) |
 | 2026-10-20~21 | 운영체제 | [가상 메모리와 페이징: 주소 변환·페이지 테이블·TLB](notes/2026-10-21-virtual-memory-paging.md) |
 | 2026-11-10 | 데이터베이스 | [SQL JOIN과 집계: NULL·DISTINCT·중복 집계·성능 검증](notes/2026-11-10-sql-joins-aggregation.md) |
+| 2026-11-12 | 데이터베이스 | [인덱스와 조회 성능: 탐색·유지 비용·복합 인덱스·전체 스캔](notes/2026-11-12-indexes-query-performance.md) |
