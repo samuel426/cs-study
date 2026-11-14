@@ -39,3 +39,4 @@ Codex가 프로젝트 지침을 읽는 `AGENTS.md` 방식을 사용한다. [Open
 | 2026-11-12 | 데이터베이스 | [인덱스와 조회 성능: 탐색·유지 비용·복합 인덱스·전체 스캔](notes/2026-11-12-indexes-query-performance.md) |
 | 2026-11-12 | 데이터베이스 | [트랜잭션과 동시성: ACID·갱신 유실·잠금·복구](notes/2026-11-12-transactions-concurrency.md) |
 | 2026-11-14 | Redis · 동시성 | [요청 제한: Sorted Set·시간 구간·동시 요청·TTL](notes/2026-11-14-redis-rate-limiting.md) |
+| 2026-11-14~15 | Java | [참조와 메모리: 객체 수명·GC·컬렉션 선택](notes/2026-11-15-java-memory-gc-collections.md) |
