@@ -41,3 +41,4 @@ Codex가 프로젝트 지침을 읽는 `AGENTS.md` 방식을 사용한다. [Open
 | 2026-11-14 | Redis · 동시성 | [요청 제한: Sorted Set·시간 구간·동시 요청·TTL](notes/2026-11-14-redis-rate-limiting.md) |
 | 2026-11-14~15 | Java | [참조와 메모리: 객체 수명·GC·컬렉션 선택](notes/2026-11-15-java-memory-gc-collections.md) |
 | 2026-11-15 | Spring | [요청 처리: 공유 상태·DI·역할 분리·트랜잭션 경계](notes/2026-11-15-spring-request-processing.md) |
+| 2026-11-16 | 네트워크 · Java 복습 | [웹 요청의 흐름: DNS·TCP와 UDP·TLS·HTTP](notes/2026-11-16-web-request-network-flow.md) |
