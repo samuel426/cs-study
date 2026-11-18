@@ -2,11 +2,13 @@
 
 기본 순서는 운영체제 → 네트워크 → 데이터베이스 → 자료구조·알고리즘이다. 한 항목을 하루의 작은 주제로 삼되, 이해도와 요청에 따라 나누거나 순서를 바꾼다. 날짜를 강제하는 일정표는 아니다.
 
-2026-11-10~22에는 [CS 집중 학습 계획](CS_PRACTICE_PLAN.md)을 우선한다. SQL JOIN과 집계, 인덱스와 조회 성능, 트랜잭션과 동시성, [Redis 요청 제한](notes/2026-11-14-redis-rate-limiting.md), [Java 참조·메모리와 GC·컬렉션 선택](notes/2026-11-15-java-memory-gc-collections.md), [Spring 요청 처리](notes/2026-11-15-spring-request-processing.md), [웹 요청의 네트워크 흐름](notes/2026-11-16-web-request-network-flow.md)은 각각 5/5문제를 마쳤다. 공유 필드와 호출별 매개변수, 외부 주입의 의미, 원자성·일관성 구분 등은 복습이 필요하다. HTTPS에서 TLS 준비가 HTTP 요청보다 먼저라는 점과 보호 범위도 복습이 필요하다. 다음은 운영체제 복습이며 세부 확인 범위는 STUDY_STATE.md를 따른다.
+2026-11-10~22에는 [CS 집중 학습 계획](CS_PRACTICE_PLAN.md)을 우선한다. SQL JOIN과 집계, 인덱스와 조회 성능, 트랜잭션과 동시성, [Redis 요청 제한](notes/2026-11-14-redis-rate-limiting.md), [Java 참조·메모리와 GC·컬렉션 선택](notes/2026-11-15-java-memory-gc-collections.md), [Spring 요청 처리](notes/2026-11-15-spring-request-processing.md), [웹 요청의 네트워크 흐름](notes/2026-11-16-web-request-network-flow.md)은 각각 5/5문제를 마쳤다. 공유 필드와 호출별 매개변수, 외부 주입의 의미, 원자성·일관성 구분 등은 복습이 필요하다. HTTPS에서 TLS 준비가 HTTP 요청보다 먼저라는 점과 보호 범위도 복습이 필요하다. [운영체제 복습](notes/2026-11-18-os-review.md)도 11월 17~18일에 5/5문제를 마쳤다. 다음은 자료구조 선택이며 세부 확인 범위는 STUDY_STATE.md를 따른다.
 
 `완료`는 설명과 확인 문제를 마쳤다는 뜻이며 숙련도를 보장하지 않는다. `보충`은 자료만 추가한 상태다. 재개 위치와 이해도는 [현재 학습 상태](STUDY_STATE.md)를 기준으로 한다.
 
 ## 1. 운영체제
+
+[CS-08 복습 · 2026-11-17~18](notes/2026-11-18-os-review.md)에서 공유 객체, 동기화 범위, 교착 여부, 가상 주소 변환을 다뤘다. 마지막 계산은 설명 후 원리를 확인했으며 새 사례 계산은 복습이 필요하다. 기존 OS-08 페이지 폴트·교체를 완료한 것은 아니다.
 
 | ID | 주제 | 핵심 질문 | 상태 |
 |---|---|---|---|

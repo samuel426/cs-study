@@ -42,3 +42,4 @@ Codex가 프로젝트 지침을 읽는 `AGENTS.md` 방식을 사용한다. [Open
 | 2026-11-14~15 | Java | [참조와 메모리: 객체 수명·GC·컬렉션 선택](notes/2026-11-15-java-memory-gc-collections.md) |
 | 2026-11-15 | Spring | [요청 처리: 공유 상태·DI·역할 분리·트랜잭션 경계](notes/2026-11-15-spring-request-processing.md) |
 | 2026-11-16 | 네트워크 · Java 복습 | [웹 요청의 흐름: DNS·TCP와 UDP·TLS·HTTP](notes/2026-11-16-web-request-network-flow.md) |
+| 2026-11-17~18 | 운영체제 · HTTPS 복습 | [공유 범위·동기화·교착 상태·주소 변환](notes/2026-11-18-os-review.md) |
