@@ -2,7 +2,7 @@
 
 기본 순서는 운영체제 → 네트워크 → 데이터베이스 → 자료구조·알고리즘이다. 한 항목을 하루의 작은 주제로 삼되, 이해도와 요청에 따라 나누거나 순서를 바꾼다. 날짜를 강제하는 일정표는 아니다.
 
-2026-11-10~22에는 [CS 집중 학습 계획](CS_PRACTICE_PLAN.md)을 우선한다. SQL JOIN과 집계, 인덱스와 조회 성능, 트랜잭션과 동시성, [Redis 요청 제한](notes/2026-11-14-redis-rate-limiting.md), [Java 참조·메모리와 GC·컬렉션 선택](notes/2026-11-15-java-memory-gc-collections.md), [Spring 요청 처리](notes/2026-11-15-spring-request-processing.md), [웹 요청의 네트워크 흐름](notes/2026-11-16-web-request-network-flow.md)은 각각 5/5문제를 마쳤다. 공유 필드와 호출별 매개변수, 외부 주입의 의미, 원자성·일관성 구분 등은 복습이 필요하다. HTTPS에서 TLS 준비가 HTTP 요청보다 먼저라는 점과 보호 범위도 복습이 필요하다. [운영체제 복습](notes/2026-11-18-os-review.md)도 11월 17~18일에 5/5문제를 마쳤다. [자료구조 선택](notes/2026-11-19-data-structure-selection.md)은 11월 18~19일에 5/5문제를 마쳤다. ID 조회와 FIFO를 위한 구조 조합은 보충 설명이며 복습이 필요하다. [인증과 API 보안](notes/2026-11-19-authentication-api-security.md)도 11월 19일에 5/5문제를 마쳤다. 쿠키·세션·토큰의 역할과 JWT 검증 원리는 복습이 필요하다. 다음은 서비스 운영과 장애 대응이며 세부 확인 범위는 STUDY_STATE.md를 따른다.
+2026-11-10~22에는 [CS 집중 학습 계획](CS_PRACTICE_PLAN.md)을 우선한다. SQL JOIN과 집계, 인덱스와 조회 성능, 트랜잭션과 동시성, [Redis 요청 제한](notes/2026-11-14-redis-rate-limiting.md), [Java 참조·메모리와 GC·컬렉션 선택](notes/2026-11-15-java-memory-gc-collections.md), [Spring 요청 처리](notes/2026-11-15-spring-request-processing.md), [웹 요청의 네트워크 흐름](notes/2026-11-16-web-request-network-flow.md)은 각각 5/5문제를 마쳤다. 공유 필드와 호출별 매개변수, 외부 주입의 의미, 원자성·일관성 구분 등은 복습이 필요하다. HTTPS에서 TLS 준비가 HTTP 요청보다 먼저라는 점과 보호 범위도 복습이 필요하다. [운영체제 복습](notes/2026-11-18-os-review.md)도 11월 17~18일에 5/5문제를 마쳤다. [자료구조 선택](notes/2026-11-19-data-structure-selection.md)은 11월 18~19일에 5/5문제를 마쳤다. ID 조회와 FIFO를 위한 구조 조합은 보충 설명이며 복습이 필요하다. [인증과 API 보안](notes/2026-11-19-authentication-api-security.md)도 11월 19일에 5/5문제를 마쳤다. 쿠키·세션·토큰의 역할과 JWT 검증 원리는 복습이 필요하다. [서비스 운영과 장애 대응](notes/2026-11-21-service-operations-reliability.md)은 11월 20일 문제 제시 후 21일 5/5 답변·피드백을 마쳤다. 이어서 종합 설명 연습을 진행하며 세부 확인 범위는 STUDY_STATE.md를 따른다.
 
 `완료`는 설명과 확인 문제를 마쳤다는 뜻이며 숙련도를 보장하지 않는다. `보충`은 자료만 추가한 상태다. 재개 위치와 이해도는 [현재 학습 상태](STUDY_STATE.md)를 기준으로 한다.
 
@@ -64,6 +64,10 @@
 ## 집중 과정: 웹 보안
 
 [CS-10 인증과 API 보안 · 2026-11-19, 5/5](notes/2026-11-19-authentication-api-security.md)에서 데이터별 인가, 세션 만료, JWT 변조, 서버 입력 검증, 로그의 비밀정보 제외를 다뤘다. 실제 검증 구현·키 관리·토큰 갱신·폐기·쿠키 보안 속성과 공격 유형별 방어 전반을 완료한 것은 아니다.
+
+## 집중 과정: 서비스 운영
+
+[CS-11 서비스 운영과 장애 대응 · 2026-11-20~21, 5/5](notes/2026-11-21-service-operations-reliability.md)에서 세션 공유, 컨테이너 교체와 파일 보존, 타임아웃과 커밋, 멱등성 키, 지연 구간 조사와 재시도 부하를 다뤘다. 설정 구현·볼륨의 호스트 범위·동시 재시도의 원자성·백오프와 지터의 실제 적용은 미검증이다.
 
 ## 선택 심화: Java 연결
 

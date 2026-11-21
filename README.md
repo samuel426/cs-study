@@ -45,3 +45,4 @@ Codex가 프로젝트 지침을 읽는 `AGENTS.md` 방식을 사용한다. [Open
 | 2026-11-17~18 | 운영체제 · HTTPS 복습 | [공유 범위·동기화·교착 상태·주소 변환](notes/2026-11-18-os-review.md) |
 | 2026-11-18~19 | 자료구조 · Java 복습 | [조회 비용·저장량·해시 충돌·FIFO와 구조 선택](notes/2026-11-19-data-structure-selection.md) |
 | 2026-11-19 | 웹 보안 · HTTPS 복습 | [인증·인가·세션·JWT·입력 검증·로그](notes/2026-11-19-authentication-api-security.md) |
+| 2026-11-20~21 | 서비스 운영 | [세션 공유·컨테이너 저장·타임아웃·멱등성·장애 추적](notes/2026-11-21-service-operations-reliability.md) |
